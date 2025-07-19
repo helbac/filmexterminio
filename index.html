@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franquia Extermínio: Uma Análise Filosófica e Psicanalítica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Chakra+Petch:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* bg-gray-900 */
+        }
+        .font-chakra {
+            font-family: 'Chakra Petch', sans-serif;
+        }
+        .hero-bg {
+            background-image: url('https://placehold.co/1920x1080/000000/ff0000?text=28');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .glass-effect {
+            background: rgba(17, 24, 39, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .text-shadow {
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+        }
+        .section-title {
+            border-left: 4px solid #ef4444; /* border-red-500 */
+            padding-left: 1rem;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .loader {
+            border: 4px solid rgba(255, 255, 255, 0.2);
+            border-left-color: #ef4444;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+        /* Table styles */
+        .comparison-table th, .comparison-table td {
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 0.75rem 1rem;
+            text-align: left;
+        }
+        .comparison-table th {
+            background-color: rgba(239, 68, 68, 0.2);
+            color: #fca5a5; /* red-300 */
+        }
+    </style>
+</head>
+<body class="text-gray-200">
+
+    <!-- Header -->
+    <header class="bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50 shadow-lg shadow-black/30">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl md:text-3xl font-bold text-red-500 font-chakra tracking-widest">EXTERMÍNIO</h1>
+            <div class="hidden md:flex flex-wrap items-center space-x-4 lg:space-x-6">
+                <a href="#films" class="hover:text-red-500 transition-colors duration-300">Filmes</a>
+                <a href="#analysis" class="hover:text-red-500 transition-colors duration-300">Análises</a>
+                <a href="#comparison" class="hover:text-red-500 transition-colors duration-300">Tabela</a>
+                <a href="#simulator" class="bg-red-600 px-3 py-1 rounded-md hover:bg-red-700 transition-colors duration-300">✨ Simulador</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg h-screen flex items-center justify-center text-center text-white relative">
+        <div class="absolute inset-0 bg-black/60"></div>
+        <div class="relative z-10 p-4">
+            <h2 class="text-5xl md:text-7xl lg:text-8xl font-black uppercase text-shadow font-chakra tracking-wider">O Fim é o Começo</h2>
+            <p class="mt-4 text-lg md:text-2xl max-w-3xl mx-auto text-gray-300 text-shadow">Uma jornada visceral pela sobrevivência e pela psique humana em um mundo devastado pela Fúria.</p>
+        </div>
+    </section>
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        <!-- Films Section Wrapper -->
+        <section id="films" class="scroll-mt-20">
+            <h2 class="text-4xl font-bold mb-8 section-title font-chakra">A Franquia</h2>
+            
+            <!-- Film 1: 28 Days Later -->
+            <div id="film1" class="my-16">
+                <div class="glass-effect rounded-lg overflow-hidden md:flex">
+                    <img src="https://placehold.co/400x600/1f2937/e5e7eb?text=Extermínio+(2002)" alt="Pôster de Extermínio" class="w-full md:w-1/3 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x600/1f2937/e5e7eb?text=Imagem+Indisponível';">
+                    <div class="p-6 md:p-8 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-3xl font-bold text-red-500 mb-4 font-chakra">Extermínio (28 Dias Depois)</h3>
+                            <p class="mb-4 text-gray-300">Um entregador chamado Jim acorda de um coma e encontra Londres deserta. Em 28 dias, um vírus altamente contagioso conhecido como "Fúria" devastou a sociedade, transformando os infectados em assassinos velozes e vorazes. Jim se une a um pequeno grupo de sobreviventes em uma busca desesperada por segurança, apenas para descobrir que os maiores monstros podem não ser os infectados.</p>
+                            <div class="text-sm text-gray-400">
+                                <p><strong class="text-gray-200">Diretor:</strong> Danny Boyle</p>
+                                <p><strong class="text-gray-200">Roteirista:</strong> Alex Garland</p>
+                                <p><strong class="text-gray-200">Elenco Principal:</strong> Cillian Murphy, Naomie Harris, Brendan Gleeson</p>
+                            </div>
+                        </div>
+                        <div class="mt-6">
+                            <a href="https://youtu.be/at4JIc_vyUY?si=OGUAVu3ZP3hdCRNs" target="_blank" class="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition-colors duration-300">Ver Trailer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Film 2: 28 Weeks Later -->
+            <div id="film2" class="my-16">
+                <div class="glass-effect rounded-lg overflow-hidden md:flex flex-row-reverse">
+                    <img src="https://placehold.co/400x600/1f2937/e5e7eb?text=Extermínio+2+(2007)" alt="Pôster de Extermínio 2" class="w-full md:w-1/3 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x600/1f2937/e5e7eb?text=Imagem+Indisponível';">
+                    <div class="p-6 md:p-8 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-3xl font-bold text-red-500 mb-4 font-chakra">Extermínio 2 (28 Semanas Depois)</h3>
+                            <p class="mb-4 text-gray-300">Seis meses após o surto original, o exército dos EUA declara a vitória sobre o vírus e inicia a reconstrução de Londres. Os refugiados retornam, incluindo dois irmãos que guardam um segredo perigoso que pode reacender a epidemia. Quando o vírus ressurge, a "zona segura" se transforma em um matadouro, e a luta pela sobrevivência se torna ainda mais desesperadora e brutal.</p>
+                            <div class="text-sm text-gray-400">
+                                <p><strong class="text-gray-200">Diretor:</strong> Juan Carlos Fresnadillo</p>
+                                <p><strong class="text-gray-200">Elenco Principal:</strong> Robert Carlyle, Rose Byrne, Jeremy Renner, Imogen Poots</p>
+                            </div>
+                        </div>
+                         <div class="mt-6">
+                            <a href="https://www.youtube.com/watch?v=GMdYLwfs0jA" target="_blank" class="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition-colors duration-300">Ver Trailer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Film 3: 28 Years Later -->
+            <div id="film3" class="my-16">
+                <div class="glass-effect rounded-lg overflow-hidden md:flex">
+                    <img src="https://placehold.co/400x600/1f2937/e5e7eb?text=Extermínio+3+(2025)" alt="Pôster de Extermínio 3" class="w-full md:w-1/3 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x600/1f2937/e5e7eb?text=Imagem+Indisponível';">
+                    <div class="p-6 md:p-8 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-3xl font-bold text-red-500 mb-4 font-chakra">Extermínio: A Evolução (28 Anos Depois)</h3>
+                            <p class="mb-4 text-gray-300">Funcionando como um "terror de autor" e uma sombria história de amadurecimento, o filme começa 28 anos após o surto. Na ilha de Lindisfarne, o jovem Spike parte com seu pai, Jamie, para o continente, apenas para descobrir as mentiras que sustentam sua comunidade e a negligência de seu pai. Desiludido, ele embarca numa jornada para salvar sua mãe doente, Isla, encontrando um mundo quebrado, Infectados evoluídos e figuras complexas como o Dr. Kelson. O filme foca no trauma geracional e na busca por um caminho autêntico, terminando não com uma resolução, mas como um prólogo para uma nova trilogia, com Spike sendo resgatado por um culto sinistro.</p>
+                            <div class="text-sm text-gray-400 space-y-2">
+                               <p><strong class="text-gray-200">Diretor:</strong> Danny Boyle</p>
+                               <p><strong class="text-gray-200">Roteirista:</strong> Alex Garland</p>
+                               <p><strong class="text-gray-200">Elenco Principal:</strong> Jodie Comer, Aaron Taylor-Johnson, Ralph Fiennes, Jack O'Connell, Alfie Williams</p>
+                               <p><strong class="text-gray-200">O Futuro:</strong> Este é o primeiro filme de uma nova trilogia, seguido por *28 Years Later: The Bone Temple* (dirigido por Nia DaCosta) e um terceiro filme que promete o retorno de Cillian Murphy.</p>
+                            </div>
+                        </div>
+                         <div class="mt-6">
+                            <a href="https://www.youtube.com/watch?v=4ojL_0uu2qc" target="_blank" class="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition-colors duration-300">Ver Trailer Oficial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Analysis Section Wrapper -->
+        <section id="analysis" class="my-24 scroll-mt-20">
+            <h2 class="text-4xl font-bold mb-8 section-title font-chakra">Análises Aprofundadas</h2>
+            
+            <!-- Psychoanalytic Analysis -->
+            <article class="glass-effect p-6 rounded-lg mb-12">
+                <h3 class="text-2xl font-bold text-red-500 mb-4">Análise Psicanalítica: O Retorno do Reprimido</h3>
+                <div class="space-y-4 text-gray-300">
+                    <p><strong class="text-gray-100">O Vírus como o Id Desenfreado:</strong> O vírus da "Fúria" representa o retorno do reprimido. Ele aniquila o controle civilizatório (Ego e Superego) e libera o Id, a parte mais primitiva e agressiva da psique.</p>
+                    <p><strong class="text-gray-100">A Morte do Superego:</strong> A Londres deserta simboliza a morte do Superego — a lei, a moral e a ordem social. Sem regras externas, os sobreviventes (o Ego) precisam lutar para manter a sanidade.</p>
+                </div>
+            </article>
+
+            <!-- Kierkegaard Analysis -->
+            <article class="glass-effect p-6 rounded-lg mb-12">
+                <h3 class="text-2xl font-bold text-red-500 mb-4">Kierkegaard: Angústia, Desespero e o Salto da Fé</h3>
+                <div class="space-y-4 text-gray-300">
+                    <p><strong class="text-gray-100">A Angústia da Liberdade:</strong> O colapso da sociedade força o indivíduo a uma liberdade radical. Sem leis ou papéis sociais, cada sobrevivente é confrontado com a angústia de ter de escolher o seu próprio ser a cada momento. Cada decisão é uma criação de si mesmo perante o nada.</p>
+                    <p><strong class="text-gray-100">O Desespero como Doença Mortal:</strong> O mundo de Extermínio é o terreno fértil para o desespero. Seja o desespero de não querer ser si mesmo (desejar a morte) ou o desespero de querer ser si mesmo (o egoísmo absoluto dos soldados), a "doença mortal" é a condição existencial dominante.</p>
+                    <p><strong class="text-gray-100">O Salto da Fé:</strong> A escolha de Jim de confiar em Selena, ou a de Frank de seguir para um refúgio incerto, são "saltos da fé". Não são baseados na lógica, mas numa aposta subjetiva e apaixonada na possibilidade de um futuro, um ato de fé no absurdo de que a humanidade ainda é possível.</p>
+                </div>
+            </article>
+
+            <!-- Heidegger Analysis -->
+            <article class="glass-effect p-6 rounded-lg mb-12">
+                <h3 class="text-2xl font-bold text-red-500 mb-4">Heidegger: Ser-para-a-Morte e a Vida Autêntica</h3>
+                <div class="space-y-4 text-gray-300">
+                    <p><strong class="text-gray-100">O Dasein Lançado no Mundo:</strong> Os sobreviventes são o "Dasein" (ser-aí) lançado num mundo hostil. A sua existência é definida pela facticidade de uma epidemia que eles não escolheram. A questão fundamental para eles não é "o que sou?", mas "como ser neste mundo?".</p>
+                    <p><strong class="text-gray-100">Ser-para-a-Morte:</strong> O filme é a manifestação máxima do conceito de "ser-para-a-morte". A morte não é um evento distante, mas a possibilidade mais iminente e certa. É esta consciência constante da finitude que pode abrir a porta para uma existência autêntica, livre das trivialidades do "mundo do um" (a sociedade pré-colapso).</p>
+                    <p><strong class="text-gray-100">Angústia e Autenticidade:</strong> A angústia sentida perante os Infectados não é mero medo. É a angústia perante o nada, a possibilidade do não-ser. É neste estado que o Dasein pode afastar-se da vida inautêntica (como a dos soldados, que apenas repetem a lógica do poder) e assumir a sua existência de forma resoluta e autêntica (como Jim no clímax).</p>
+                </div>
+            </article>
+
+            <!-- Deleuze & Guattari Analysis -->
+            <article class="glass-effect p-6 rounded-lg mb-12">
+                <h3 class="text-2xl font-bold text-red-500 mb-4">Filosofia da Diferença: Corpos sem Órgãos e Linhas de Fuga</h3>
+                <div class="space-y-4 text-gray-300">
+                    <p><strong class="text-gray-100">O Infectado como Corpo sem Órgãos (CsO):</strong> O Infectado é um Corpo sem Órgãos perfeito. O vírus da Fúria desfaz a organização do corpo humano (a família, o trabalho, a linguagem) e o reduz a uma pura intensidade: correr, morder, gritar. É um corpo desterritorializado, livre das estruturas que o definiam.</p>
+                    <p><strong class="text-gray-100">Devir-Infectado:</strong> A ameaça constante não é apenas a morte, mas o "devir-infectado". Os sobreviventes estão sempre numa linha tênue, correndo o risco de serem capturados por esta máquina de guerra viral. Jim, no final, entra num "devir-animal", num "devir-infectado" para combater os soldados, usando a intensidade do CsO sem perder a sua linha de subjetivação.</p>
+                    <p><strong class="text-gray-100">Linhas de Fuga:</strong> A jornada dos sobreviventes é uma "linha de fuga". Eles escapam da máquina social colapsada e da máquina de guerra dos Infectados, tentando criar um novo "agenciamento", uma nova forma de vida no meio do caos. O seu pequeno grupo é um rizoma, uma conexão não-hierárquica que se opõe às estruturas molares (o Estado, o Exército).</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- Comparative Table Section -->
+        <section id="comparison" class="my-24 scroll-mt-20">
+            <h2 class="text-4xl font-bold mb-8 section-title font-chakra">Tabela Comparativa de Análises</h2>
+            <div class="overflow-x-auto glass-effect p-4 rounded-lg">
+                <table class="w-full text-sm md:text-base comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Tema Central</th>
+                            <th>Psicanálise (Freud/Lacan)</th>
+                            <th>Existencialismo (Kierkegaard)</th>
+                            <th>Fenomenologia (Heidegger)</th>
+                            <th>Pós-Estruturalismo (Deleuze)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="font-bold text-red-400">O Vírus / Os Infectados</td>
+                            <td>O Id desenfreado; o retorno do reprimido; pulsão de morte.</td>
+                            <td>A manifestação do absurdo; o caos que força a escolha subjetiva.</td>
+                            <td>A presença do Nada; a ameaça que revela a finitude.</td>
+                            <td>O Corpo sem Órgãos; a desterritorialização do corpo humano.</td>
+                        </tr>
+                        <tr>
+                            <td class="font-bold text-red-400">O Sobrevivente</td>
+                            <td>O Ego tentando mediar a realidade e manter a sanidade.</td>
+                            <td>O indivíduo em desespero, forçado a um "salto de fé".</td>
+                            <td>O Dasein confrontando seu "ser-para-a-morte" em busca de autenticidade.</td>
+                            <td>Um agenciamento em "linha de fuga", criando novos territórios.</td>
+                        </tr>
+                        <tr>
+                            <td class="font-bold text-red-400">A Sociedade (ou a falta dela)</td>
+                            <td>O colapso do Superego; a falha da lei paterna.</td>
+                            <td>A dissolução do "rebanho", forçando a responsabilidade individual.</td>
+                            <td>O fim do "mundo do um" (das trivialidades), revelando a angústia.</td>
+                            <td>A falha da máquina social molar, abrindo espaço para agenciamentos moleculares.</td>
+                        </tr>
+                         <tr>
+                            <td class="font-bold text-red-400">O Horror</td>
+                            <td>O horror do nosso próprio inconsciente violento libertado.</td>
+                            <td>O horror da liberdade absoluta e da responsabilidade total.</td>
+                            <td>O horror de encarar a própria mortalidade e o vazio do ser.</td>
+                            <td>O horror de ser desfeito, de se tornar um corpo desorganizado e pura intensidade.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Gemini Survival Simulator -->
+        <section id="simulator" class="my-24 scroll-mt-20">
+            <h2 class="text-4xl font-bold mb-2 section-title font-chakra">✨ Simulador de Sobrevivência</h2>
+            <p class="mb-8 text-gray-400">Descreva a sua situação. A nossa IA, especialista em sobrevivência no universo de Extermínio, irá gerar um plano tático e uma análise psicológica para o seu cenário.</p>
+            
+            <div class="glass-effect p-6 rounded-lg">
+                <div class="space-y-4">
+                    <label for="scenario" class="block font-bold text-gray-200">O seu cenário:</label>
+                    <textarea id="scenario" rows="5" class="w-full p-3 bg-gray-900 border border-gray-700 rounded-md focus:ring-2 focus:ring-red-500 focus:border-red-500 transition text-gray-200" placeholder="Ex: Estou preso num supermercado com mais duas pessoas. Temos pouca comida e ouvimos infectados lá fora. O que devemos fazer?"></textarea>
+                    <button id="generatePlan" class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-4 rounded transition-colors duration-300 flex items-center justify-center space-x-2">
+                        <span>Gerar Plano de Sobrevivência</span>
+                    </button>
+                </div>
+
+                <div id="loader" class="hidden mt-8 mx-auto loader"></div>
+                
+                <div id="result" class="mt-8 hidden">
+                    <h3 class="text-2xl font-bold text-red-500 mb-4 font-chakra">Análise Tática e Psicológica</h3>
+                    <div id="result-content" class="prose prose-invert max-w-none text-gray-300 space-y-4"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <section id="contato" class="section">
+            <h2>Entre em Contato</h2>
+            <p>Tem alguma sugestão, dúvida ou quer propor uma nova análise? Adoraríamos ouvir você!</p>
+            <p>Envie um e-mail para: <a href="mailto:helonjk@gmail.com">helonjk@gmail.com</a></p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900/50 mt-16 py-6 text-center text-gray-400">
+        <p>&copy; 2025. Site de fã dedicado à franquia Extermínio.</p>
+        <p class="text-xs">Todos os direitos de imagem e vídeo pertencem aos seus respectivos proprietários. Simulador desenvolvido com a API Gemini.</p>
+    </footer>
+
+    <script>
+        const generateButton = document.getElementById('generatePlan');
+        const scenarioInput = document.getElementById('scenario');
+        const loader = document.getElementById('loader');
+        const resultContainer = document.getElementById('result');
+        const resultContent = document.getElementById('result-content');
+
+        generateButton.addEventListener('click', async () => {
+            const userScenario = scenarioInput.value.trim();
+            if (!userScenario) {
+                alert('Por favor, descreva o seu cenário de sobrevivência.');
+                return;
+            }
+
+            loader.classList.remove('hidden');
+            resultContainer.classList.add('hidden');
+            
+            const prompt = `Aja como um especialista em sobrevivência tática e psicológica no universo do filme "Extermínio". Um sobrevivente descreve a seguinte situação: "${userScenario}".
+            
+            A sua tarefa é fornecer uma análise detalhada em português (Brasil). A resposta deve ser estruturada da seguinte forma, usando markdown:
+            
+            ### Análise da Situação
+            Uma avaliação breve e tensa dos perigos imediatos e do estado psicológico provável do grupo.
+            
+            ### Opção Tática 1: [Nome da Tática]
+            Descreva um plano de ação detalhado.
+            **- Análise Psicológica:** Explique os riscos e benefícios mentais desta tática (ex: aumento da esperança, risco de paranoia, teste de confiança).
+            
+            ### Opção Tática 2: [Nome da Tática]
+            Descreva um segundo plano de ação, diferente do primeiro.
+            **- Análise Psicológica:** Explique os riscos e benefícios mentais desta tática.
+
+            ### Opção Tática 3: [Nome da Tática]
+            Descreva um terceiro plano, talvez mais arriscado ou de longo prazo.
+            **- Análise Psicológica:** Explique os riscos e benefícios mentais desta tática.
+
+            ### Veredito do Especialista
+            Conclua com uma recomendação final, enfatizando que no final, a escolha é deles e cada segundo conta. Mantenha o tom sombrio e realista do filme.`;
+
+            try {
+                let chatHistory = [];
+                chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+                const payload = { contents: chatHistory };
+                const apiKey = ""; 
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+                
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const result = await response.json();
+                
+                if (result.candidates && result.candidates.length > 0 &&
+                    result.candidates[0].content && result.candidates[0].content.parts &&
+                    result.candidates[0].content.parts.length > 0) {
+                    const text = result.candidates[0].content.parts[0].text;
+                    resultContent.innerHTML = simpleMarkdownToHtml(text);
+                    resultContainer.classList.remove('hidden');
+                } else {
+                    throw new Error('Resposta da API inválida ou vazia.');
+                }
+
+            } catch (error) {
+                console.error('Erro ao chamar a API Gemini:', error);
+                resultContent.innerHTML = '<p class="text-red-400">Ocorreu um erro ao gerar o plano. A comunicação pode ter sido perdida. Tente novamente.</p>';
+                resultContainer.classList.remove('hidden');
+            } finally {
+                loader.classList.add('hidden');
+            }
+        });
+
+        function simpleMarkdownToHtml(markdown) {
+            let html = markdown.replace(/### (.*)/g, '<h4 class="text-xl font-bold text-gray-100 mt-6 mb-2">$1</h4>');
+            html = html.replace(/\*\*(.*?)\*\*/g, '<strong class="text-red-400">$1</strong>');
+            html = html.replace(/^- (.*)/gm, '<li class="ml-4">$1</li>');
+            html = html.replace(/((<li>.*<\/li>\s*)+)/g, '<ul class="list-disc list-inside space-y-2">$1</ul>');
+            html = html.split('\n\n').map(p => `<p>${p.replace(/\n/g, '<br>')}</p>`).join('');
+            html = html.replace(/<p><(h4|ul)/g, '<$1');
+            html = html.replace(/<\/(h4|ul)><\/p>/g, '</$1>');
+            return html;
+        }
+    </script>
+</body>
+</html>
+
